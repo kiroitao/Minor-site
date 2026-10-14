@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Задача</title>
+    <style>
+          a:hover {
+            background-color: #f8a7ff;
+        }
+
+        a.active {
+         background-color: #9e48e0;
+}
+    </style>
+</head>
+<body>
+  <h1> Меню </h1>
+<ul>
+    <li> <a href='main.html'>  Главная страница </a> </li>
+    <li> <a href='info.html'>  Виды слаймов (С главами) </a> </li>
+    <li> <a href='test_img.html'> Фото </a> </li>
+    <li> <a href="form.html"> Личные данные </a> </li>
+    <li> <a href='passport.html'>Паспорт </a> </li>
+    <li> <a href='table.html'>Таблица </a> </li>
+    <li> <a href='task.html' class="active">Алгоритмическая задача </a> </li>
+    <li> <a href='DOM.html'>Считывание из DOM</a> </li>
+    <li> <a href="https://www.slimerancher.com/" target="_blank"> Slimepedia </a> </li>
+    <li> <a href="https://www.slimerancher.com/" target="_blank"><img src="image/logosr.png" width= "20px" alt=""></a></li>
+</ul>
+
+    <p name="formulation"> Существует ли треугольник со сторонами X, Y, Z? Является ли он прямоугольным?</p>
+    <form action="https://www.google.com" id="UserEnter" name="UserEnter" target="_blank">
+        <ul>
+            <li>Формулировка задачи
+                <br><textarea cols="60" rows="4" id="task" name="formulation"> Даны вещественные числа: X, Y , Z. Определить, существует ли треугольник с такими длинами сторон и, если существует, будет ли он прямоугольным.</textarea></li>
+            <li>X: <input id="X" name="X" type="number" value=""></li>
+            <li>Y: <input id="Y" name="Y" type="number" value=""></li>
+            <li>Z: <input id="Z" name="Z" type="number" value=""></li>
+            <li>Результат решения задачи: <input id="result" name="result" value="" style="width: 400px"></li>
+            <li><input id="verify" type="button" value="Проверить"></li>
+        </ul>
+    </form>
+
+<script src="./scripts/task.js"></script>
+
+</body></html>

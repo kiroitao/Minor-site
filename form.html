@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма</title>
+   <style>
+          a:hover {
+            background-color: #f8a7ff;
+        }
+
+        a.active {
+         background-color: #9e48e0;
+}
+    </style>
+ </head>
+   <h1> Меню </h1>
+<ul>
+    <li> <a href='main.html'>  Главная страница </a> </li>
+    <li> <a href='info.html'>  Виды слаймов (С главами) </a> </li>
+    <li> <a href='test_img.html'> Фото </a> </li>
+    <li> <a href="form.html" class="active"> Личные данные </a> </li>
+    <li> <a href='passport.html'>Паспорт </a> </li>
+    <li> <a href='table.html'>Таблица </a> </li>
+    <li> <a href='task.html'>Алгоритмическая задача </a> </li>
+    <li> <a href='DOM.html'>Считывание из DOM</a> </li>
+    <li> <a href="https://www.slimerancher.com/" target="_blank"> Slimepedia </a> </li>
+    <li> <a href="https://www.slimerancher.com/" target="_blank"><img src="image/logosr.png" width= "20px" alt=""></a></li>
+</ul>
+<h1>Первая форма:</h1>
+<form action="https://www.google.com" id="Forma1" name="Forma1" target="_blank">
+
+    <p> Введите ваше ФИО <input type="Text" name="fio"></p>
+    <p> Введите вашу группу <input type="Text" name="group"></p>
+    <p> Введите ваш возраст <input type="number" name="age" min="0" max="100"></p>
+    <p> Введите ваш номер телефона <input type="tel" name="Fnumber"></p>
+    <p> Введите вашу электронную почту <input type="Text" name="email"></p>
+    <p>Укажите дату отправки: <input name="user_date" type="date" value='2000-01-01'></p>
+  <p><input type="submit" value="Отправить">
+   <input type="reset" value="Очистить"></p>
+</form>
+<h1>Вторая форма:</h1>
+<form action="https://www.google.com" id="Forma2" name="Forma2" target="_blank">
+
+    <p> Введите ваше ФИО <input type="Text" name="fio"></p>
+    <p><b>Какая диета ваша любимая?</b><Br>
+   <input type="radio" name="browser" value="ie"> Овощная<Br>
+   <input type="radio" name="browser" value="opera"> Мясная<Br>
+   <input type="radio" name="browser" value="firefox"> Фруктовая<Br>
+    <input type="radio" name="browser" value="chrome"> Другая
+  <p>Почему?<Br>
+   <textarea name="comment" cols="40" rows="3"></textarea></p>
+    <p>Дата: <input name="user_date" type="date" value='2000-01-01'></p>
+
+        <p>Пароль: <input name="password" size=4 type="Password" value=""></p>
+    <p>Употребляете ли вы что-нибудь в пищу?<input type="checkbox" name="food"  value="yes"></p>
+    <p> Сколько раз в день? <input type="number" name="mealscount" min="0" max="5"></p>
+    <input type="hidden" name="hideparametr"     value="idk">
+  <p><input type="submit" value="Отправить">
+   <input type="reset" value="Очистить"></p>
+</form>
+</body>
+</html>

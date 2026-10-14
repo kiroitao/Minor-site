@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Таблица</title>
+    <style>
+        a:hover {
+            background-color: #f8a7ff;
+        }
+
+        a.active {
+         background-color: #9e48e0;
+        }
+
+
+        table {
+            background-image: url('image/tablebck');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+
+  <h1> Меню </h1>
+<ul>
+    <li> <a href='main.html'>  Главная страница </a> </li>
+    <li> <a href='info.html'>  Виды слаймов (С главами) </a> </li>
+    <li> <a href='test_img.html'> Фото </a> </li>
+    <li> <a href="form.html"> Личные данные </a> </li>
+    <li> <a href='passport.html'>Паспорт </a> </li>
+    <li> <a href='table.html' class="active">Таблица </a> </li>
+    <li> <a href='task.html'>Алгоритмическая задача </a> </li>
+    <li> <a href='DOM.html'>Считывание из DOM</a> </li>
+    <li> <a href="https://www.slimerancher.com/" target="_blank"> Slimepedia </a> </li>
+    <li> <a href="https://www.slimerancher.com/" target="_blank"><img src="image/logosr.png" width= "20px" alt=""></a></li>
+</ul>
+
+<h2 align="center">Таблица</h2>
+
+<table width="600" align="center" border="2" cellspacing="15" cellpadding="10">
+    <tr height="100">
+        <td align="right" valign="top">
+            <img src="image/TB1.webp" height="50" alt="Картинка"><br>
+        </td>
+        <td style="background-color: #f8a7ff;">
+            Цветной фон
+        </td>
+    </tr>
+    <tr height="20">
+        <td colspan="3" align="center"><a href="https://slimerancher.fandom.com/wiki/Slimes" target="_blank"><img src="image/TBlogo.webp" width="130" height="60"></a></td>
+    </tr>
+    <tr>
+        <td width="400" height="300"><img src="image/TB3.png"></td>
+        <td><img src="image/TB4.webp" width="300" height="300"></td>
+    </tr>
+
+    <tr>
+        <td width="50%" height="200">
+            <table border="1" width="100%" cellspacing="0" cellpadding="20">
+                <tr>
+                    <td><img src="image/LTB1.webp" alt="Вложенная" width="90" height="90"></td>
+                    <td><img src="image/LTB2.webp" alt="Вложенная" width="90" height="90"></td>
+                </tr>
+                <tr>
+                    <td><img src="image/LTB3.webp" alt="Вложенная" width="90" height="90"></td>
+                    <td><img src="image/LTB4.webp" alt="Вложенная" width="90" height="90"></td>
+                </tr>
+            </table>
+        </td>
+
+        <td width="50%" align="right" valign="middle">
+            <img src="image/TB5.png" hspace="15" vspace="15" alt="Справа" width="300" >
+        </td>
+    </tr>
+</table>
+</body>
+</html>
